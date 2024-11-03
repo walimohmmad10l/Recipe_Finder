@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Recipe Finder</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Delicious Recipes</h1>
+            <nav>
+                <div class="menu-icon">&#9776;</div>
+                <ul class="nav-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Recipe</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Welcome To Our Recipes To Satisfy</h2>
+            <p>Here Every Craving Finds Its Match In a Delicious Dish Waiting To Be Discovered!</p>
+            <form>
+                <input type="text" id="search" list="search-history" placeholder="Enter your ingredients">
+                <datalist id="search-history"></datalist>
+                <button type="submit" id="submit" class="btn">Search</button>
+            </form>
+        </div>
+    </section>
+
+    <div class="container">
+        <div id="results"></div>
+        <ul id="search-history"></ul>
+    </div>
+    <section class="categories">
+        <div class="container">
+            <h2 class="section-title">Explore Our Culinary World</h2>
+            <p class = "section-subtitle">Discover recipes for every moment of your day</p>
+            <div class="category-grid">
+                <div class="category-card">
+                    <div class = "category-img-container">
+                    <img src="images/dish-4.jpg" alt="Breakfast">
+                    <div class="category-overlay">
+                        <span class="recipe-count">25+ Recipes</span>
+                    </div>
+                </div>
+                <div class = "category-content">
+                    <h3>Breakfast</h3>
+                    <p>Start your day with our energizing breakfast recipes. From quick smoothies to hearty classics.</p>
+                    <a href="#" class="category-btn">Explore Breakfast</a>
+                </div>
+            </div>
+            <div class="category-card">
+                <div class = "category-img-container">
+                    <img src="images/dish-2.jpg" alt="Lunch">
+                    <div class="category-overlay">
+                        <span class="recipe-count">30+ Recipes</span>
+                    </div>
+                </div>
+                <div class="category-content">
+                    <h3>Lunch</h3>
+                    <p>Perfect midday meals that are both satisfying and easy to prepare. Ideal for busy schedules.</p>
+                    <a href="#" class="category-btn">Explore Lunch</a>
+                </div>
+            </div>
+            <div class="category-card">
+                <div class = "category-img-container">
+                    <img src="images/dish-3.jpg" alt="Dinner">
+                    <div class="category-overlay">
+                        <span class="recipe-count">40+ Recipes</span>
+                    </div>
+                </div>
+                <div class = "category-content">
+                    <h3>Dinner</h3>
+                    <p>End your day with our collection of family-friendly dinner recipes that everyone will love.</p>
+                    <a href="#" class="category-btn">Explore Dinner</a>
+                </div>
+            </div>
+            <div class="category-card">
+                <div class = "category-img-container">
+                    <img src="images/dish-1.jpg" alt="Desserts">
+                    <div class="category-overlay">
+                        <span class="recipe-count">20+ Recipes</span>
+                    </div>
+                </div>
+                <div class="category-content">
+                    <h3>Desserts</h3>
+                    <p>Indulge in our delightful collection of sweet treats and memorable desserts.</p>
+                    <a href="#" class="category-btn">Explore Desserts</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose Us</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-search"></i>
+                    <h3>Easy Search</h3>
+                    <p>Find recipes quickly using ingredients you have</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Save Time</h3>
+                    <p>Quick and efficient recipe discovery</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-star"></i>
+                    <h3>Quality Recipes</h3>
+                    <p>Curated collection of tested recipes</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Mobile Friendly</h3>
+                    <p>Access recipes anywhere, anytime</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="container">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Get weekly recipe updates and cooking tips!</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email">
+                <button type="submit" class="btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p>Discover delicious recipes for every occasion with our easy-to-use recipe finder.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Recipes</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Recipe Finder. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
